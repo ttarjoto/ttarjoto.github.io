@@ -55,6 +55,9 @@ figure figcaption {
 img {
   max-width: 100%;
 }
+img.half-size {
+  max-width: 50%;
+}
 img.quarter-size {
   max-width: 25%;
 }
