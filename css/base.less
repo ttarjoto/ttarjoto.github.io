@@ -1,45 +1,88 @@
-out: base.css, sourcemap: true, compress: true
-
-// body {
-//   height: 100vh;
-//   display: flex;
-//   flex-flow: row;
-//   justify-content: center;
-//   align-items: center;
-//   font-size: 1rem;
-// }
+html {
+    font-size: 10px;
+}
 
 body {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 12px;
-  line-height: 1.45;
-	margin: 1em;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.45;
+    margin: 1em;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: 400;
-	margin: 1.414em 0 0.5em;
-  line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    margin: 1.414rem 0 0.5rem;
+    line-height: 1.2;
 }
+
 //// GOLDEN RATIO 1.618
-h1 { font-size: 6.854em; font-weight: 900; margin-top: 0}
-h2 { font-size: 4.236em}
-h3 { font-size: 2.618em}
-h4 { font-size: 1.618em}
+h1 {
+    font-size: 6.854rem;
+    font-weight: 900;
+    margin-top: 0
+}
 
-p {
-	font-size: 1.6em;
+h2 {
+    font-size: 4.236rem
+}
+
+h3 {
+    font-size: 2.618rem
+}
+
+h4 {
+    font-size: 1.618rem
+}
+
+a {
+    color: rgb(204, 0, 0);
+    text-decoration: none;
+    &:hover,
+    &:visited {
+        color: rgb(102, 0, 0);
+    }
+}
+
+p,
+li {
+    font-size: 1.6rem;
+}
+
+figure {
+    padding: 0.5rem;
+    figcaption {
+        font-size: 1.3rem;
+        text-align: center;
+        margin: .75rem 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    &.quarter-size {
+        max-width: 25%;
+    }
 }
 
 .subtitle {
-	font-size: 1.6em;
+    font-size: 1.6rem;
 }
+
 .bold {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 .project {
-	font-size: 1.618em;
-	font-weight: 700;
+    font-size: 1.618rem;
+    font-weight: 700;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
