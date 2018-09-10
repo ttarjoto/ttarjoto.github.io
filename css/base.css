@@ -61,6 +61,10 @@ img.half-size {
 img.quarter-size {
   max-width: 25%;
 }
+.info {
+  padding-top: 1em;
+  margin-top: 4rem;
+}
 .subtitle {
   font-size: 1.6rem;
 }
