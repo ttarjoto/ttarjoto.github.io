@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Next Gen Website Platform | Tara Tarjoto, UX Designer</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Libre+Franklin:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a href="index.html" class="name">Tara Tarjoto</a>
+            <span class="title">UX Designer</span>
+        </div>
+        <nav>
+            <a class="nav" href="ttarjoto_resume.pdf" target="_blank">Resume</a>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <img src="images/ng/ng.jpg" />
+        <div>
+            <h1>Next Gen Website Platform</h1>
+            <p>By Q1 of 2014, market research have shown that mobile traffic accounted for nearly two-thirds of visitors to car dealership websites on CDK’s website platform. A mobile solution was released on 2009 but it required additional configuration and was only capable of displaying a subset of information available on the main website. My team was tasked with modernizing the platform in order to meet the needs to modern car shoppers.</p>
+            <p class="skills">Content Analysis &amp; Strategy, UX Design, Prototyping, User Testing.</p>
+        </div>
+
+    </section>
+
+    <section class="normal">
+        <h2>Requirements Gathering</h2>
+        <p>Aside from needing to be able to generate websites that meet the needs of modern car shoppers, the business requires new platform to:</p>
+        <ul>
+            <li>Decrease the cost of creating, migrating, and maintaining websites.</li>
+            <li>Kill CDK’s reputation of serving “cookie cutter” websites.</li>
+            <li>Be capable of serving personalized shopping experiences.</li>
+        </ul>
+
+        <p>Interviews with users and SMEs of the old platform validated concerns from the business and revealed additional risks:</p>
+        <ul>
+            <li>Terrible past experiences of platform migration cast doubt over the entire project.</li>
+            <li>Users are strongly adverse to the idea of not having full control over their websites.</li>
+            <li>Dependencies on legacy systems may limit innovation and increases the likelihood of having to support two systems for a period of time.</li>
+            <li>The common practice of ‘hacking’ the tools and system is one of the roots of costly maintenance.</li>
+        </ul>
+
+        <figure>
+            <img src="images/ng/ng_sample.jpg" />
+            <figcaption>The “cookie cutter” look on the majority of websites of the old platform is often attributed to the similar design of headers and arrangement of content.</figcaption>
+        </figure>
+
+        <p>Additionally, I surveyed existing tools and helped my team prioratize capabilities that must be included in or discarded from the new platform. </p>
+
+        <figure>
+            <img src="images/ng/ng_featureparity.jpg" />
+            <figcaption>Whiteboard from one of many prioritization workshops.</figcaption>
+        </figure>
+    </section>
+
+    <section class="normal">
+        <h2>Categorizing Content</h2>
+        <p>A majority of problems that caused users to “hack” out tools and systems were due to the difficulty in changing the visual appearance of websites. The most common trick used to fix this issue was to inject inline style or scripts into the HTML. However, this in turn caused problems down the line when it comes time update the website by increasing test and validation costs. Though this may have been fine on an single-site basis, it is not a scalable solution for thousands of websites. </p>
+        <p>A solution the team considered for this problem was to impose a strict separation of content, style, and functionality. For this portion of the project, I was tasked with content analysis. My responsibilities included researching dealership strategies, surveying site content, ideating on how content could be more smartly displayed, and presenting my findings back to my peers and stakeholders. </p>
+
+        <figure>
+            <img src="images/ng/ng_segments.jpg" />
+            <figcaption>Percentage breakdown of dealerships on our platform by selling strategy.</figcaption>
+        </figure>
+
+        <p>Given the various strategies, I wanted to see if there any any commonalities between the kinds of content found on the sites. I took a sampling form each strategy and found that though presentation (order, visual design) may differ, the varieties of content are essentially the same.</p>
+
+        <figure>
+            <img src="images/ng/ng_comp.jpg" />
+            <figcaption>Color coding content types on a sample website.</figcaption>
+        </figure>
+
+        <p>I then sketched several iterations of content diagrams before arriving at a polished one to be presented to the team.</p>
+
+        <figure>
+            <img src="images/ng/ng_diagram.jpg" />
+            <figcaption>Two of many whiteboard sketches and final(ish) versions of the dealership content diagram.</figcaption>
+        </figure>
+
+    </section>
+
+
+    <section class="normal">
+        <h2>Identifying Opportunities</h2>
+        <figure>
+            <img src="images/ng/ng_workflow.jpg" />
+            <figcaption>Sketch of an early migration workflow for dealers new to the platform.</figcaption>
+        </figure>
+
+        <p>Once the team have completed their portion of user research and requirements gathering, we came back together to begin identifying opportunities. For my part, I chose to focus on the following:</p>
+        <ul>
+            <li>Simplify the overall editing experience so dealers can maximize their time to do what they know best—selling cars—instead of tinkering with a website editor. </li>
+            <li>Leverage identified relationships between content to offer pre-bundled “stories” for each page type while remaining customizable. </li>
+            <li>Leverage content categorization to enable our personalization engine to swap content for identified shopper types.</li>
+            <li>Enable dealers to self-migrate from the old platform to the new.</li>
+        </ul>
+    </section>
+
+    <section class="normal">
+        <h2>Sketches &amp; Solutions</h2>
+        <span class="bold">Simplifying and Isolating Configuration Options</span>
+        <p>Exploring the idea of isolating the website configuration experience to a single panel to perhaps allow editing on both desktop and mobile devices. </p>
+        <figure>
+            <img src="images/ng/ng_card-config.jpg" />
+            <figcaption>This particular flow is demonstrating how users would go about editing a single vs group of content.</figcaption>
+        </figure>
+
+        <span class="bold">Page Outline &amp; Recommended Cards</span>
+        <p>This concept was inspired by the 5-paragraph essay format. It leveraged the previously-identified content relationships to recommend page outlines depending on which type is picked as the “thesis” of the page. </p>
+        <figure>
+            <img src="images/ng/ng_outline-procon.jpg" />
+            <figcaption>Pro-Con analysis of a version of the page outline concept.</figcaption>
+        </figure>
+        <figure>
+            <img src="images/ng/ng_recommended.jpg" />
+            <figcaption>Screenflows demonstrating usage of recommended outlines and cards.</figcaption>
+        </figure>
+
+        <span class="bold">Personalization Consumer Experience</span>
+        <p>Personalized Consumer Experience is CDK’s personalization engine that allows dealers to tailor their websites content based on the vehicle model a visitor is interested in.</p>
+        <figure>
+            <img src="images/ng/ng_personalization.jpg" />
+            <figcaption>A sample homepage and how it would appear unpersonalized (left) vs. personalized (right).</figcaption>
+        </figure>
+
+        <span class="bold">Migration Wizard</span>
+        <p>This concept was based on the question of what it we could mitigate company’s migration costs by allowing dealers to self-migrate on their own time.</p>
+        <figure>
+            <img src="images/ng/ng_gandalf.jpg" />
+            <figcaption>Rough workflow through the migration wizard.</figcaption>
+        </figure>
+    </section>
+
+    <section class="normal">
+        <h2>Stakeholder Presentation</h2>
+        <p>Because of the scale of the overhaul, the team needed to get buy-in from various groups within CDK. I was responsible for presenting workflows at the various stakeholder meetings. </p>
+        <figure>
+            <img src="images/ng/ng-pitch.png" />
+            <figcaption>Presenting workflows to lead developers and senior management.</figcaption>
+        </figure>
+    </section>
+
+    <section class="normal">
+        <h2>Results</h2>
+        <p>The Next Gen platform successfully launched in 2016. It has since been adopted by around 6,000 car dealerships across the US, Australia, and Canada. The site migration experience was more streamlined than the previous, allowing the company to hire less temporary workers and less time to complete the process. Site-wide design updates are quicker to do thanks to the strict separation of concerns, and new designs and options are being periodically released minimize the perception of the “CDK birthmark.”</p>
+        <p>The platform and its tools are continually being optimized and iterated on. Two of the latest design additions to it are the new <a href="">Slide Studio</a> and the revised <a href="">CMS CRUD Workflows</a> in 2017-2018.</p>
+    </section>
+
+    <div class="morestuff">
+        <h2>Other Projects</h2>
+        <section class="projects">
+            <div class="project">
+                <a class="" href="qe.html">
+                    <div class="thumb"></div>
+                    <div class="info">
+                        <span class="title">Quality Essentials</p>
+                <span class="description">Implemented participatory design process in an agile environment and enabled non-designers to make good design decisions.</span>
+                        <span class="skills">UX Design, Agile Methodology, Public Speaking</span>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a class="" href="crud.html">
+                    <div class="thumb"></div>
+                    <div class="info">
+                        <span class="title">CMS CRUD Redesign</p>
+                <span class="description">Streamlining the Create-Read-Update-Delete (CRUD) process in the Next Gen content management system (CMS).</span>
+                        <span class="skills"> Process Improvements, Design Sprint, Rapid Prototyping, User Testing</span>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a class="" href="slidestudio.html">
+                    <div class="thumb"></div>
+                    <div class="info">
+                        <span class="title">Slide Studio</p>
+                <span class="description">Redesigning website hero rotator creation and management workflows. </span>
+                        <span class="skills">Process Improvements, Design Sprint, UX Design, Rapid Prototyping, User Testing</span>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a class="" href="pub.html">
+                    <div class="thumb"></div>
+                    <div class="info">
+                        <span class="title">Responsive Digital Publication</p>
+                <span class="description">Exploration of the application of responsive design principles on reading and learning experiences.</span>
+                        <span class="skills">Ideation, Storyboarding</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
